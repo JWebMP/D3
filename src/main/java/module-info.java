@@ -11,5 +11,5 @@ module com.jwebmp.plugins.d3 {
 	provides com.guicedee.client.services.config.IGuiceScanModuleInclusions with D3InclusionsModule;
 	provides com.guicedee.client.services.config.IGuiceScanModuleExclusions with com.jwebmp.plugins.d3.implementations.D3ExclusionsModule;
 
-	opens com.jwebmp.plugins.d3 to com.fasterxml.jackson.databind, com.google.guice, com.jwebmp.core;
+	opens com.jwebmp.plugins.d3 to tools.jackson.databind, com.google.guice, com.jwebmp.core;
 }
